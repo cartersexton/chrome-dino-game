@@ -46,8 +46,8 @@ function createCactus() {
   cactus.classList.add("cactus")
 
   // Scale down the cactus size to make the hitbox smaller
-  cactus.style.width = "30px"  // Set a smaller width
-  cactus.style.height = "50px" // Set a smaller height
+  cactus.style.width = "15px"  // Set a smaller width
+  cactus.style.height = "35px" // Set a smaller height
 
   setCustomProperty(cactus, "--left", 100)
   worldElem.append(cactus)
